@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FITME</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/65f5eeb57a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"> <i class="fa-solid fa-heart-pulse"></i> FITME </a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/cardio.html" class="navbar__links">Workouts</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/todo.html" class="navbar__links">Fitness Planner</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/goalintro.html" class="navbar__links">Goal Setting</a>
+          </li>
+          <!-- <li class="navbar__btn">
+            <a href="/" class="button">Sign up</a>
+          </li> -->
+        </ul>
+      </div>
+    </nav>
+
+    <div class="form__container1">
+      <form action="strength.html" id="fit_form">
+        <label for="fitness__label">Type of fitness:</label>
+        <select name="fitness" id="fitness">
+          <option value="cardio">Cardio</option>
+          <option value="strength">Strength training</option>
+          <option value="flexibility">Flexibility</option>
+        </select>
+        <br><br>
+        <label for="level__label">Fitness level:</label>
+        <select name="level" id="level">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+        </select>
+        <!-- <br><br>
+        <label for="frequency__label">At what frequency will you increase the stress of your workout? (Progressive overload)</label>
+        <select name="frequency" id="frequency">
+          <option value="1">Each week</option>
+          <option value="2">Every 2 weeks</option>
+          <option value="3">Every 3 weeks</option>
+        </select> -->
+        <br><br>
+        <input type="submit" value="Submit" id="submit">
+      </form>
+      <br><br>
+      <h2 id="fitness_title">Fitness Plan:</h2>
+      <div>
+        <h5 id="cardio_b">
+          <br><em>You can do low impact exercises such as brisk walking, cycling, rowing, elliptical machine depending on which ones are available to you. When beginning, you can do these activities for 20-40 minutes, 2 or 3 times a week.</em> Example weekly schedules are shown below: <br><br>
+          Before each fitness session, you should at least have a 5-minute warm-up by proceeding with the exercise but with less intensity and gradually building up until the ideal intensity. During the workout, you should be able to hold a conversation without running out of breath and heart rate should be elevated.
+          <br><br>On the days where you don’t do a cardio workout (a rest day), you can incorporate a flexibility routine into the day which should have the same importance as the workouts itself. You can check out the flexibility section on our website for more info. 
+          <br><br>You can begin the first few weeks with the same workout load, until you feel confident and comfortable with it, you can increase either the duration or intensity. You can do this based on your own feeling, just until you are doing a workout relevant to your level. When you feel confident in the beginner workout plan and feel that it doesn’t challenge you enough, you can move on to the intermediate cardio fitness plans. 
+          <br><br>Example weekly plans (You can adjust the days according to your personal availability and doesn’t have to be exact, just spacing out workouts in a way):
+          <br><br>Mon - Rest
+          <br>Tuesday – 20 mins brisk walking
+          <br>Wed - Rest
+          <br>Thursday – Rest
+          <br>Fri - 20 mins brisk walking
+          <br>Sat – Rest
+          <br>Sun – Rest/stretch
+          <br>
+          <br>Mon - Rest
+          <br>Tuesday – 30 mins stationary cycling
+          <br>Wed – Rest/stretch
+          <br>Thursday – 30 mins stationary cycling
+          <br>Fri - Rest
+          <br>Sat – 30 mins stationary cycling
+          <br>Sun – Rest/stretch
+          </h5>
+      </div>
+      <div>
+        <h5 id="cardio_i"><br><em>For an intermediate level, you should have a specific goal and type of aerobic exercise in mind.</em>
+          <br><br><u>Long Slow Distance:</u>
+          <br><br>Low intensity forms of cardio exercises such as running, cycling and elliptical. Workout sessions around 30-60 minutes depending on current level, 2-3 times a week. This is reduced to 3 times a week to ensure enough recovery as these sessions are a lot more intense overall.  
+          <br><br><u>Tempo:</u>
+          <br><br>Aerobic exercise at a moderately high intensity which you can maintain for half an hour. Sessions range from 20-30 minutes 3-4 times a week. 
+          <br><br><u>Interval Training:</u>
+          <br><br>Alternate between high intensity and low intensity periods and have a work-rest of 1:1 or 2:1 for maximum benefit. The two intensity periods should be around 30 seconds to 2 minutes long for this level. These workouts should last around 20-30 minutes, 2-3 times a week. 
+          <br><br>Example weekly schedules are shown below: You can adjust the days according to your personal availability and doesn’t have to be exact, just spacing out workouts in a way. Make sure that there is enough rest between sessions for the body to recover and prevent overuse injury. 
+          <br><br>
+          <br>2 days a week
+          <br>Mon - Rest
+          <br>Tuesday – Training day
+          <br>Wed – Rest/stretch
+          <br>Thursday – Rest
+          <br>Fri - Training day 
+          <br>Sat – Rest
+          <br>Sun – Rest/stretch
+          <br>
+          <br>3 days a week
+          <br>Mon - Rest
+          <br>Tuesday – Training day
+          <br>Wed – Rest/stretch
+          <br>Thursday – Training day
+          <br>Fri - Rest
+          <br>Sat – Training day
+          <br>Sun – Rest/stretch
+          <br>
+          <br><br>•	Before each fitness session, you should at least have a 5-10 minute warm-up by proceeding with the exercise but with less intensity and gradually building up until the ideal intensity. Dynamic stretching is also another effective way to warm-up. 
+          <br><br>•	On rest days, you can incorporate a flexibility routine into your day which should have the same importance as the workouts itself. You can check out the flexibility section on our website for more info. 
+          <br><br>•	For progression, first see how long it takes for you to be confident with the current workout and when you can increase an aspect of the workout (duration, intensity or frequency), and then keep the same period in between progressing further each time. Try and limit progression each time to 10% and should be around every 1-5 weeks. When you feel confident in the intermediate workout plan and feel that it doesn’t challenge you enough, you can move on to the advanced cardio fitness plans. 
+          </h5>
+      </div>
+      <div>
+        <h5 id="cardio_a"><br><em>For an advanced level, you should have a specific goal and type of aerobic exercise in mind.</em>
+          <br><br><u>Long Slow Distance:</u>
+          <br><br>Low intensity forms of cardio exercises such as running, cycling and elliptical. Workout sessions around 30-60 minutes depending on current level, 2-3 times a week. This is reduced to 3 times a week to ensure enough recovery as these sessions are a lot more intense overall.  Although if you feel that you can have a good recovery between sessions, you can increase the frequency. 
+          <br><br><u>Tempo:</u>
+          <br><br>Aerobic exercise at a moderately high intensity which you can maintain for half an hour. Sessions range from 20-30 minutes 3-5 times a week. 
+          <br><br><u>Interval Training:</u>
+          <br><br>Alternate between high intensity and low intensity periods and have a work-rest of 1:1 or 2:1 for maximum benefit. The two intensity periods should be around 30 seconds to 2 minutes long for this level. These workouts should last around 20-30 minutes, 2-3 times a week. 
+          <br><br>Example weekly schedules are shown below: You can adjust the days according to your personal availability and doesn’t have to be exact, just spacing out workouts in a way. Make sure that there is enough rest between sessions for the body to recover and prevent overuse injury. 
+          <br><br>
+          <br>4 days training, 3 days rest 
+          <br>Mon - Rest
+          <br>Tuesday – Training day
+          <br>Wed – Training day
+          <br>Thursday – Rest/stretch
+          <br>Fri - Training day 
+          <br>Sat – Training day
+          <br>Sun – Rest/stretch
+          
+          <br>5 days training, 2 days rest
+          <br>Mon – Rest/stretch
+          <br>Tuesday – Training day
+          <br>Wed – Training day
+          <br>Thursday – Rest/stretch 
+          <br>Fri – Training day
+          <br>Sat – Training day
+          <br>Sun – Training day
+          <br><br>•	Before each fitness session, you should at least have a 5-10 minute warm-up by proceeding with the exercise but with less intensity and gradually building up until the ideal intensity. Dynamic stretching is also another effective way to warm-up. 
+          <br><br>•	On rest days, you can incorporate a flexibility routine into your day which should have the same importance as the workouts itself. You can check out the flexibility section on our website for more info. 
+          <br><br>•	For progression, first see how long it takes for you to be confident with the current workout and when you can increase an aspect of the workout (duration, intensity or frequency), and then keep the same period in between progressing further each time. Try and limit progression each time to 10% and should be around every 1-5 weeks. When you feel confident in the advanced workout plan and feel that it doesn’t challenge you enough, you can increase your workout intensity with your own experience.
+          </h5>
+      </div>
+      <div>
+        <h5 id="flexibility_b"><br>Warm-Up (5-10 minutes):
+          <br>Start with a gentle warm-up to increase blood flow to your muscles and prepare your body for stretching. You can do light cardio exercises such as jogging in place or jumping jacks. 
+          
+          <br><br>Static Stretches (Hold each stretch for 15-20 seconds):
+          <br>Perform each stretch slowly and gently, and never force your body into a position that causes pain.  
+          
+          <br><br>1. Neck Stretch: Sit or stand up straight and slowly tilt your head to one side, bringing your ear towards your shoulder. Hold, then switch sides.
+          
+          <br><br>2. Shoulder Stretch: Extend one arm across your chest and gently pull it closer to your chest using your opposite hand. Repeat on the other side.
+          
+          <br><br>3. Triceps Stretch: Raise one arm overhead, bend your elbow, and reach your hand down your back. Use your opposite hand to gently push your elbow. Repeat on the other side.
+          
+          <br><br>4. Chest Opener: Clasp your hands behind your back and straighten your arms. Lift your chest and squeeze your shoulder blades together.
+          
+          <br><br>5. Standing Quadriceps Stretch: Stand on one leg, grab your opposite ankle behind you, and gently pull your heel towards your buttocks. Repeat on the other side.
+          
+          <br><br>6. Calf Stretch: Stand facing a wall with one foot forward and one foot back. Keep the back leg straight, bend the front knee, and lean forward slightly. You should feel a stretch in your calf. Repeat on the other side.
+          
+          <br><br>7. Hamstring Stretch: Sit on the floor with one leg straight and the other bent so that the sole of your foot touches your inner thigh. Reach forward toward your toes. Switch legs and repeat.
+          
+          <br><br>8. Groin Stretch: Sit on the floor with your feet together and your knees bent outward. Gently press your knees toward the floor using your elbows.
+          
+          <br><br>9. Lower Back Stretch: Lie on your back and hug your knees to your chest, gently pulling them in.
+          </h5>
+      </div>
+      <div>
+        <h5 id="flexibility_i"><br>Warm-Up (5-10 minutes):
+          <br>Begin with a warm-up to increase blood flow and prepare your body for stretching. You can do light cardio exercises such as jogging or jumping jacks. 
+          
+          <br><br>Dynamic Stretches (10-15 reps for each stretch):
+          <br>Dynamic stretches help improve flexibility while also increasing circulation. These stretches involve controlled movements rather than static holds.
+          
+          <br><br>1. Arm Circles: Extend your arms to the sides and make circular motions with your arms, gradually increasing the size of the circles. Reverse the direction.
+          
+          <br><br>2. Leg Swings (Front and Side): Stand next to a wall or support, and swing one leg forward and backward. Then, swing your leg side to side. Repeat on the other leg.
+          
+          <br><br>3. Hip Circles: Stand with your hands on your hips and make circular motions with your hips, both clockwise and counter clockwise.
+          
+          <br><br>4. Torso Twists: Stand with your feet hip-width apart and twist your torso to one side, then the other, keeping your hips stable.
+          
+          <br><br>Static Stretches (Hold each stretch for 20-30 seconds):
+          <br>Perform these stretches slowly and with control. Aim to do 1 or 2 sets of each stretch.
+          
+          <br><br>1. Standing Quadriceps Stretch: Stand on one leg and grab your opposite ankle behind you, gently pulling your heel towards your buttocks. Repeat on the other side.
+          
+          <br><br>2. Seated Forward Bend: Sit with your legs straight in front of you and reach forward toward your toes. Keep your back straight.
+          
+          <br><br>3. Pike Stretch: Sit with your legs straight and spread apart as wide as possible. Reach forward between your legs as far as you can.
+          
+          <br><br>4. Butterfly Stretch: Sit with your feet together and your knees bent outward. Gently press your knees toward the floor using your elbows.
+          
+          <br><br>5. Lizard Pose: Begin in a push-up position and bring one foot forward to the outside of your hand. Sink into the stretch and feel it in your hip flexors. Repeat on the other side.
+          
+          <br><br>6. Child's Pose: Kneel on the floor, sit back on your heels, and extend your arms forward, lowering your chest toward the ground.
+          
+          <br><br>7. Puppy Pose: Start in a table position, then walk your hands forward and lower your chest toward the ground while keeping your hips above your knees.
+          
+          <br><br>8. Standing Side Stretch: Stand with your feet hip-width apart, raise one arm overhead, and bend sideways to the opposite side. Repeat on the other side.
+          </h5>
+      </div>
+      <div>
+        <h5 id="flexibility_a"><br>Warm-Up (5-10 minutes): 
+          <br>Begin with a warm-up to increase blood flow and prepare your body for stretching. Dynamic movements such as jogging, jumping jacks, or high knees can be included.
+          
+          <br><br>Dynamic Stretches (10-15 reps for each stretch): 
+          <br>Dynamic stretches help improve flexibility while also increasing circulation. this case these dynamic stretches can also act as a further warmup for the static stretching. 
+          
+          <br><br>1. Leg Swings: Stand next to a wall and swing one leg forward and backward. Repeat on the other leg.
+          
+          <br><br>2. Arm Circles: Extend your arms to the sides and make circular motions with your arms, gradually increasing the size of the circles. Reverse the direction.
+          
+          <br><br>3. Hip Circles: Stand with your hands on your hips and make circular motions with your hips, both clockwise and counterclockwise.
+          
+          <br><br>4. Dynamic Lunges: Step forward into a lunge position and then return to the starting position, alternating legs.
+          
+          <br><br>Static Stretches (Hold each stretch for 30-40 seconds): 
+          <br>Perform these stretches slowly and with control. Aim to do 2-3 sets of each stretch.
+          
+          <br><br>1. Standing Split: Stand with your feet hip-width apart. Lift one leg as high as you can while keeping it straight and your toes pointed.
+          
+          <br><br>2. Bridge Pose: Lie on your back with your knees bent and feet flat on the floor. Lift your hips up toward the ceiling while keeping your feet and shoulders on the ground.
+          
+          <br><br>3. Full Splits: Sit on the floor with your legs extended in opposite directions. Slowly slide into a full split, keeping your toes pointed and your back straight.
+          
+          <br><br>4. King Pigeon Pose: From a seated position, bend one knee and bring your heel towards your hip. Reach back with your hand to grab your foot and bring it toward your head.
+          
+          <br><br>5. Scorpion Stretch: Lie face-down on the ground, extend your arms out to the sides, and lift one leg up and over your body toward the opposite hand.
+          
+          <br><br>6. Standing Backbend: Stand with your feet hip-width apart, place your hands on your lower back, and gently arch backward.
+          
+          <br><br>7. Child's Pose: Kneel on the floor, sit back on your heels, and extend your arms forward, lowering your chest toward the ground. This is a great exercise to do after back stretches as it lengthens out your spine. 
+          
+          <br><br>Cool Down (5-10 minutes):
+          <br>Finish your routine with gentle, low-impact cardio exercises like walking or slow jogging in place. Focus on deep, controlled breathing to help relax your body.
+          </h5>
+      </div>
+      <div>
+        <h5 id="strength_b"><br>How it works: Do 2 sets of each of these exercises with 10-15 repetitions - 2 or 3 times a week spread out – example weekly plans are shown below. Have around 1 minute break between sets to ensure recovery
+          <br><br>To find out correct techniques, simply search the exercise name on the internet followed by ‘technique’. (Search even if you think you know how to do it already, because a small mistake can hurt in the long run). 
+          <br><br>It is recommended to follow the order because the legs exercises are spread out evenly to allow for recovery and fatigue management. 
+          
+          <br><br><u>Basic no equipment version:</u>
+          <br><br>Push-Ups:
+          <br>Begin in a plank position with your hands shoulder-width apart. Lower your body by bending your elbows until your chest is close to the ground, then push back up to the starting position. 
+          <br><br>Bodyweight Squats: 
+          <br><br>Stand with your feet shoulder-width apart and perform squats by bending your knees and lowering your hips, then return to the standing position.
+          <br><br>Planks: 2 sets, hold for 30-45 seconds 
+          <br><br>Start in a plank position on your elbows and toes, keeping your body straight and core engaged. Hold this position for the specified time. 
+          <br><br>Lunges: 2 sets per leg 
+          <br><br>Step forward with one leg and bend both knees to lower your body. Push back to the starting position and switch legs. 
+          <br><br>Glute Bridges: 
+          <br><br>Lie on your back with your knees bent and feet flat on the floor. Lift your hips off the ground by squeezing your glutes, then lower them back down.
+          <br><br>Tricep Dips: (use a sturdy chair or edge of a table) 
+          <br><br>Sit on a chair or the edge of a table with your hands beside your hips. Lower your body by bending your elbows, then push back up. 
+          
+          <br><br><u>With dumbbells version: </u>
+          
+          <br><br>Dumbbell Push-Ups (Chest, Shoulders, Triceps):
+          <br>Place the dumbbells on the ground, shoulder-width apart. Assume a push-up position with your hands gripping the dumbbells. Lower your chest toward the ground, then push back up. Modify by performing knee push-ups if needed. 
+          Dumbbell Goblet Squats (Legs):
+          Hold a dumbbell close to your chest with both hands. Stand with your feet shoulder-width apart. Lower your body by bending at your hips and knees, keeping your chest up. Go as low as your mobility allows, ideally until your thighs are parallel to the ground. Push through your heels to return to the starting position.
+          
+          <br><br>Dumbbell Bent-Over Rows (Back):
+          <br><br>Stand with your feet hip-width apart, holding a dumbbell in each hand. Bend at your hips, keeping your back straight and chest up. Let the dumbbells hang in front of you with your arms fully extended. Pull the dumbbells toward your hips, squeezing your shoulder blades together. Lower the dumbbells back down. 
+          <br><br>Dumbbell Standing Shoulder Press (Shoulders):
+          <br><br>Sit or stand with your back straight and core engaged. Hold a dumbbell in each hand at shoulder height, palms facing forward. Press the dumbbells overhead until your arms are fully extended. Lower the dumbbells back to shoulder height. 
+          <br><br>Dumbbell Lunge (Legs):
+          <br><br>Hold a dumbbell in each hand and let your arms drop down by your sides. Step forward with one leg and bend both legs to lower your body. Aim for a 90-degree bend in each leg. Push up with the leg you stepped forward with to come back to a standing position. 
+          <br><br>Dumbbell Bicep Curls (Biceps):
+          <br><br>Stand with a dumbbell in each hand, arms fully extended. Keep your elbows close to your sides and curl the dumbbells toward your shoulders. Lower the dumbbells back down. 
+          <br><br>Dumbbell Tricep Extensions (Triceps):
+          <br><br>Hold a dumbbell with both hands overhead. Lower the dumbbell behind your head by bending your elbows. Extend your arms to raise the dumbbell back to the starting position. 
+          </h5>
+      </div>
+      <div>
+        <h5 id="strength_i"><br><em>How it works:</em>
+          <br>Perform each exercise for 3 sets of 8-12 repetitions, with a 1-2 minute rest between sets, 3-4 times a week. 
+          
+          <br><br><u>Workout requiring minimal equipment:</u>
+          
+          <br><br><u>Warm-Up:</u>
+          <br>Start with a 5-10 minute warm-up, which can include light cardio (jumping jacks, jogging) to increase your heart rate and some dynamic stretches to loosen up your joints and muscle to decrease risk of injury. 
+          
+          <br><br><u>Main Workout:</u>
+          
+          <br><br>1. Dumbbell Squats:
+          <br>- Hold a dumbbell in each hand at your sides.
+          <br> - Stand with your feet shoulder-width apart.
+          <br> - Lower yourself into a squat, keeping your chest up and knees behind your toes.
+          <br> - Push through your heels to return to the starting position.
+          
+          <br><br>2. Push-Ups:
+          <br>- Perform standard push-ups or modify with your knees on the ground.
+          <br>- Keep your body in a straight line, engaging your core throughout.
+          
+          <br><br>3. Dumbbell Rows:
+          <br>- Hold a dumbbell in each hand with your palms facing your body.
+          <br>- Bend at the hips, keeping your back straight.
+          <br>- Pull the dumbbells toward your hips, squeezing your shoulder blades together.
+          <br> - Lower the dumbbells back down with control.
+          
+          <br><br>4. Bodyweight Lunges:
+          <br>- Stand with your feet together.
+          <br> - Take a step forward with your right foot and lower your body into a lunge.
+          <br>- Push through your right heel to return to the starting position.
+          <br>- Repeat on the left side.
+          
+          <br><br>5. Dumbbell Chest Press:
+          <br>- Lie on your back with a dumbbell in each hand, arms extended toward the ceiling.
+          <br>- Lower the dumbbells to chest level, then press them back up.
+          
+          <br><br>6. Plank with Shoulder Taps:
+          <br>- Get into a plank position on your elbows or hands.
+          <br>- Tap your left shoulder with your right hand and alternate sides while keeping your hips stable.
+          
+          <br><br>7. Dumbbell Bicep Curls:
+          <br>- Stand with a dumbbell in each hand, arms fully extended.
+          <br>- Curl the dumbbells toward your shoulders while keeping your elbows close to your body.
+          <br>- Lower the dumbbells with control.
+          
+          <br><br>8. Tricep Dips:
+          <br>- Use a stable surface like a bench or chair.
+          <br>- Place your hands on the edge, fingers pointing forward.
+          <br> - Lower your body, bending your elbows to about 90 degrees, then push back up.
+          
+          <br><br>Cool-down:
+          <br>- Stretch major muscle groups, holding each stretch for 15-30 seconds.
+          
+          <br><br><br><u>Using gym equipment version:</u>
+          
+          <br><br>Warm-Up:
+          <br>Start with a 5-10 minute warm-up, which can include light cardio (treadmill, stationary bike, or elliptical) to increase your heart rate and some dynamic stretches to loosen up your joints and muscle to decrease risk of injury. 
+          
+          <br><br>1. Squats (Barbell or Smith Machine):
+          <br>  - Stand with your feet shoulder-width apart.
+          <br>  - Place the barbell on your upper back or use the Smith Machine.
+          <br> - Bend your knees and hips to lower your body, keeping your chest up and your back straight.
+          <br> - Push through your heels to stand back up.
+             
+          <br><br>2. Bench Press:
+          <br>  - Lie on a bench with your feet flat on the floor.
+          <br> - Grip the barbell slightly wider than shoulder-width apart.
+          <br> - Lower the barbell to your chest, then press it back up.
+             
+          <br><br>3. Lat Pulldown:
+          <br>  - Use the lat pulldown machine with a wide grip attachment.
+          <br> - Sit down and grip the bar wider than shoulder-width apart.
+          <br>- Pull the bar down to your chest, then slowly release it.
+          
+          <br><br>4. Dumbbell Rows:
+          <br> - Grab a dumbbell in each hand.
+          <br> - Bend at your hips and knees, keeping your back straight.
+          <br> - Row the dumbbells to your hips, squeezing your shoulder blades together.
+             
+          <br><br>5. Leg Press:
+          <br>  - Sit in the leg press machine with your feet shoulder-width apart.
+          <br> - Push the weight upward, extending your knees, and then lower it back down.
+          
+          <br><br>6. Dumbbell Lunges:
+          <br> - Hold a dumbbell in each hand at your sides.
+          <br>- Step forward into a lunge, bending both knees until they form 90-degree angles.
+          <br>- Push off your front foot to return to the starting position and alternate legs.
+          
+          <br><br>7. Seated Shoulder Press (Barbell or Dumbbells):
+          <br>  - Sit on a bench with back support.
+          <br>- Hold a barbell or dumbbells at shoulder height.
+          <br> - Press the weight overhead until your arms are fully extended, then lower it back down.
+          
+          <br><br>8. Pull-Ups (Assisted Machine or Bodyweight):
+          <br> - Use an assisted pull-up machine or a pull-up bar.
+          <br> - Grip the bar with your palms facing away.
+          <br>- Pull your body up until your chin is above the bar and then lower yourself down.
+          
+          <br><br>Cool Down:
+          <br>Finish your workout with a 5-10 minute cool down, which can include static stretches for all major muscle groups. Stretching will help improve flexibility and reduce post-workout muscle soreness.
+          </h5>
+      </div>
+      <div>
+        <h5 id="strength_a">
+          <br><em>How it works:</em>
+          <br>Perform each exercise for 3 sets of 8-12 repetitions, with about a minute rest between sets, 3-5 times a week. Ensure that you use a suitable weight which is challenging for you, and you are almost going to failure after each set. Also could try use a heavier weight and do less reps for hypertrophy. It is effective to split your workouts between specific upper body and lower body workouts between different days. 
+          
+          <br><br>Upper Body Strength Workout
+          <br><br>Warm-up: Spend 5-10 minutes warming up with light cardio or dynamic stretches to prepare your muscles and joints. 
+          <br><br>1.	Bench Press 
+          <br><br>Lie on a bench with your feet flat on the ground and a barbell or dumbbells in your hands. Lower the weight to your chest, keeping your elbows at a 90-degree angle, and then push it back up. 
+          <br><br>2.	Pull-Ups 
+          <br><br>Hang from a pull-up bar with your palms facing away from you. Pull your body up until your chin is above the bar, then lower it down. If needed, use a weight belt or resistance bands to make it more challenging. 
+          <br><br>3.	Bent-Over Rows 
+          <br><br>Stand with a barbell or dumbbells in hand, bend at your hips to bring your upper body parallel to the ground. Pull the weight towards your waist while keeping your back straight. Lower the weight back down with control. 
+          <br><br>4.	Overhead Shoulder 
+          <br><br>Press Sit or stand with a barbell or dumbbells at shoulder height. Press the weight overhead until your arms are fully extended. Lower the weight back to shoulder height. 
+          <br><br>5.	Incline Dumbbell Flyes 
+          <br><br>Lie on an incline bench with a dumbbell in each hand, arms extended. Lower the weights out to your sides while maintaining a slight bend in your elbows. Bring the weights back up, squeezing your chest muscles. 
+          <br><br>6.	Tricep Dips 
+          <br><br>Use parallel bars or a sturdy surface, with your hands shoulder-width apart. Lower your body until your arms are at a 90-degree angle, then push back up. Keep your back close to the surface. 
+          <br><br>7. Bicep Curls 
+          <br><br>Stand or sit with a dumbbell in each hand, palms facing forward. Curl the weights towards your shoulders, keeping your elbows close to your body. Lower the weights back down with control. 
+          <br><br>Cool-down: Finish your workout with 5-10 minutes of light stretching to help reduce muscle soreness and improve flexibility.
+          
+          <br><br>Lower Body Strength Workout
+          
+          <br><br>1. Barbell Squats:
+          <br>- Start with a barbell on your upper back, resting on your traps.
+          <br>- Stand with your feet shoulder-width apart.
+          <br>- Lower your body by bending at your hips and knees, keeping your back straight.
+          <br>- Go as low as your flexibility allows, ideally until your thighs are parallel to the ground.
+          <br>- Push through your heels to return to the starting position.
+          
+          <br><br>2. Romanian Deadlifts:
+          <br>- Hold a barbell or dumbbells in front of your thighs with your feet hip-width apart.
+          <br>- Keeping your back straight, hinge at your hips and lower the weights toward the ground, keeping them close to your legs.
+          <br>- Go as low as your flexibility allows while maintaining a flat back.
+          <br>- Return to the starting position by driving your hips forward.
+          
+          <br>3. Bulgarian Split Squats:
+          <br>- Stand facing away from a bench or sturdy surface with one foot on it, and the other foot a step or two in front.
+          <br>- Lower your body by bending your front knee until your thigh is parallel to the ground or slightly below.
+          <br> - Push through the heel of your front foot to return to the starting position.
+          <br>- Perform 3-4 sets of 8-10 reps per leg.
+          
+          <br><br>4. Box Jumps:
+          <br>- Stand in front of a sturdy box or platform.
+          <br>- Jump onto the box with both feet, landing softly with your knees slightly bent.
+          <br>- Step back down and repeat.
+          
+          <br><br>5. Glute Bridge with Resistance Band:
+          <br>- Lie on your back with a resistance band just above your knees.
+          <br>- Bend your knees and place your feet flat on the floor hip-width apart.
+          <br>- Push through your heels to lift your hips off the ground, squeezing your glutes at the top.
+          <br>- Hold for a moment, then lower your hips back down.
+          
+          <br><br>6. Seated Leg Curl Machine:
+          <br>- Sit on the leg curl machine with your legs extended, your ankles hooked under the padded lever, and your hands gripping the handles.
+          <br>- Curl your legs towards your glutes, squeezing your hamstrings.
+          <br>- Slowly lower the weight back down.
+          
+          <br><br>7. Lateral Band Walk:
+          <br> - Place a resistance band around your ankles.
+          <br> - Stand with your feet hip-width apart, knees slightly bent.
+          <br>- Take small sideways steps to one side, then back to the other.
+          <br>- Keep tension on the band throughout the movement.
+          <br>- Perform 3-4 sets of 12-15 steps in each direction.
+          <br><br>Cool-down: Finish your workout with 5-10 minutes of light stretching to help reduce muscle soreness and improve flexibility. See flexibility on our website. 
+          </h5>
+      </div>
+    </div>
+    
+    <div class="form__container2">
+      <div class="work__content" id="work_content">
+        <h2 id="workout_title">Personlised fitness plan</h2>
+        <h4 id="workout_title2">Select a form of fitness you would like to focus on <br> and what fitness level you are at</h4>
+        <div>
+          <h5 id="cardio_bd"><br>
+            Cardiovascular fitness or aerobic exercise is a type of physical fitness which elevates the rate at which your heart beats over a duration by including rhythmic and continuous movements. <br><br>
+            <br><b>What are the benefits?</b><br><br>Cardio fitness is an excellent way to improve your cardiovascular system, which basically means strengthening your heart and lungs, improving blood circulation through your body, and enhancing the ability to transport oxygen and nutrients to your muscle tissues. Cardiovascular disease is the most common cause of death in the world, so beginning and maintaining a cardio fitness routine is an excellent way to greatly reduce the risk. <br><br>
+            <b>How is a beginner defined?</b><br><br>You would fit into the beginner category if you have not had much experience in cardiovascular fitness/fitness in general or generally feel that you lack physical activity in your life and want to begin training. As a beginner, we recommend starting off small and to gradually build up on your intensity. For example, start off with just a light walk, and then start jogging after a few sessions for a running plan, gradually increasing the speed or duration. <br><br>
+            <b>Is a warm-up and cooldown needed?</b><br><br>Yes a warm-up and cooldown are very important parts of a workout. A great way to warm up before a cardiovascular exercise is to begin with light intensity of the exercise and then gradually building up the intensity until the ideal workout intensity. This means that your heart rate will steadily increase, not having a sudden rise, which will greatly reduce the risk of injury and provide you with the most effective benefits. Doing some dynamic stretching (using repeated muscle movements to stretch the range of motion) is also a great way to warm up your muscles and promotes blood flow to ensure enough oxygen can reach your muscles. But static stretching (holding a stretch) is not an effective way to warm up as it does not warm up your muscles well and may reduce temporary range of motion as it is a relaxation stretch. <br><br>
+            Adding a flexibility routine on days you don’t workout provides you with many benefits such as reducing muscle tension for recovery which improves your performance in following workouts, reduces risk of injury, and enhances your body’s range of motion. This doesn’t have to be for very long, just a quick 10 minute stretch is also effective. This can also be done as a cooldown after a workout. Check out the flexibility section on our website for more info. 
+            <br><br><b>Further tips:</b><br><br>
+            •	Make sure you stay hydrated and fuel up before a run to provide your body with more energy and nutrients. <br><br>
+            •	Invest in a good pair of supportive shoes for running to prevent injuries. <br><br>
+            •	Make sure you get enough rest after workouts, don’t do many workouts in consecutive days and try to space them out across the week. <br><br>
+            •	Lastly, listen to your body, if you feel any unexpected pain, dizziness or shortness of breath, stop and rest. 
+            <br><br><b>Definitions</b>
+            <br><br><u>Intensity</u>
+            <br>Intensity is how hard your body is working during exercise. How hard you are breathing, your heart rate and the amount of sweat are factors to measure the intensity. 
+            <br><br>Low intensity – you can talk during exercise, not sweating or breathing hard although heart rate is slightly elevated. 
+            <br><br>Moderate intensity – you can still talk during exercise, but is more difficult to do so, slightly sweating, slightly out of breath
+            <br><br>High intensity – You can only speak a few words at a time, excessive sweating, and heart beats rapidly
+            <br><br><u>Duration</u>
+            <br>Refers to the length of your workout and how long it lasts, usually around 10 mins to an hour depending on the type of cardio
+            <br><br><u>Frequency</u>
+            <br>Means how often you workout within a week or day, usually 1-5 days a week. 
+            </h5>
+        </div>
+        <div>
+          <h5 id="cardio_id"><br>Cardiovascular fitness or aerobic exercise is a type of physical fitness which elevates the rate at which your heart beats over a duration by including rhythmic and continuous movements. 
+            <br><br><br><b>What are the benefits?</b><br><br>Cardio fitness is an excellent way to improve your cardiovascular system, which basically means strengthening your heart and lungs, improving blood circulation through your body, and enhancing the ability to transport oxygen and nutrients to your muscle tissues. Cardiovascular disease is the most common cause of death in the world, so beginning and maintaining a cardio fitness routine is an excellent way to greatly reduce the risk. 
+            <br><br><b>How is intermediate defined?</b><br><br>You would fit into this intermediate category if you have had some experience in cardiovascular training for at least 6 months somewhat consistently. You should know the basics of cardiovascular training and recognise which modes of training work for you, whether it be running, elliptical or other. With an intermediate level of fitness, you should aim to build on your current level with structured progression. You should aim to increase one factor of your workout by 10% within a specific number of weeks depending on your personal goals and abilities. Aspects of your workout which you can progress is the intensity, duration or frequency. 
+            <br><br><b>Types of cardio</b><br><br>Now that you are at an intermediate level, you can personalise your workout tailored to your goals further by choosing a specific type of aerobic training program. 
+            <br><br>•	The first one, long slow distance training is where the client trains at a lower intensity from what they are capable of but extends the duration as a result. This form of cardio training focuses on the body’s aerobic capacity and utilizing oxygen efficiently over a prolonged period of time. It is a great way to not only improve your physical endurance but also your mental endurance. During this type of fitness, you should be able to talk without becoming short of breath. 
+            <br><br>•	Tempo training is another form of aerobic fitness where you train at 80-90% of your maximum effort for a moderately extended period of time. It should be the maximum pace you can hold for at least 20 minutes. Tempo training is used to train at your lactate threshold, the point where the lactic acid builds up in your muscles faster than your body can clear it away which causes fatigue. Tempo training is a way to increase your body’s ability to sustain higher intensity exercise without having excess lactate accumulate. 
+            <br><br>•	The last one, interval training involves alternating bursts of high intensity exercise with lower intensity, recovery periods. Try and have a work-rest ratio of 1:1. This allows the body to accomplish a great amount of work which is normally not possible as it taps into the anaerobic energy systems quickly but allows for a sufficient recovery. This pushes your heart rate limit.  
+            <br><br>A great way to warm up before a cardiovascular exercise is to begin with light intensity of the exercise and then gradually building up the intensity until the ideal workout intensity. This means that your heart rate will steadily increase, not having a sudden rise, which will greatly reduce the risk of injury and provide you with the most effective benefits. Doing some dynamic stretching (using repeated muscle movements to stretch the range of motion) is also a great way to warm up your muscles and promotes blood flow to ensure enough oxygen can reach your muscles. But static stretching (holding a stretch) is not an effective way to warm up as it does not warm up your muscles well and may reduce temporary range of motion as it is a relaxation stretch.
+            <br><br><b>Further tips</b><br><br>
+            •	Make sure you stay hydrated and fuel up before a run to provide your body with more energy and nutrients. 
+            <br><br>•	Focus on proper form and technique to prevent injury
+            <br><br>•	Make sure you get enough rest after workouts, don’t do many workouts in consecutive days and try to space them out across the week. 
+            <br><br>•	Set clear goals so you can stay motivated and focused
+            <br><br>Definitions
+            <br><br><u>Intensity</u>
+            <br>Intensity is how hard your body is working during exercise. How hard you are breathing, your heart rate and the amount of sweat are factors to measure the intensity. 
+            <br><br>Low intensity – you can talk during exercise, not sweating or breathing hard although heart rate is slightly elevated. 
+            <br><br>Moderate intensity – you can still talk during exercise, but is more difficult to do so, slightly sweating, slightly out of breath
+            <br><br>High intensity – You can only speak a few words at a time, excessive sweating, and heart beats rapidly
+            <br><br><u>Duration</u>
+            <br>Refers to the length of your workout and how long it lasts, usually around 10 mins to an hour depending on the type of cardio
+            <br><br><u>Frequency</u>
+            <br>Means how often you workout within a week or day, usually 1-5 days a week. 
+
+            </h5>
+        </div>
+        <div>
+          <h5 id="cardio_ad"><br>Cardiovascular fitness or aerobic exercise is a type of physical fitness which elevates the rate at which your heart beats over a duration by including rhythmic and continuous movements. 
+            <br><br><br><b>What are the benefits?</b><br><br>Cardio fitness is an excellent way to improve your cardiovascular system, which basically means strengthening your heart and lungs, improving blood circulation through your body, and enhancing the ability to transport oxygen and nutrients to your muscle tissues. Cardiovascular disease is the most common cause of death in the world, so beginning and maintaining a cardio fitness routine is an excellent way to greatly reduce the risk. 
+            <br><br><b>How is advanced defined?</b><br><br>You would fit into this advanced category if you have had plenty of experience in cardio training for over a year and has well familiar with the majority of this type of fitness. You should know what modes of cardio work for you and be familiar with the different types of cardio. With an advanced level of cardio, you need to aim to consistently train most days of the week and implement high level strategies to progress towards your goals. Progressive overload, using heart rate percentages, and other types of aerobic training such as cross-training and combined aerobic and resistance training are such examples.  
+            <br><br><b>Types of cardio</b><br><br>Now that you are at an advanced level, you should personalise your workout tailored to your goals further by using a specific type of aerobic training.  
+            <br><br>•	The first one, long slow distance training is where the client trains at a lower intensity from what they are capable of but extends the duration as a result. This form of cardio training focuses on the body’s aerobic capacity and utilizing oxygen efficiently over a prolonged period of time. It is a great way to not only improve your physical endurance but also your mental endurance. During this type of fitness, you should be able to talk without becoming short of breath. 
+            <br><br>•	Tempo training is another form of aerobic fitness where you train at 80-90% of your maximum effort for a moderately extended period of time. It should be the maximum pace you can hold for at least 20 minutes. Tempo training is used to train at your lactate threshold, the point where the lactic acid builds up in your muscles faster than your body can clear it away which causes fatigue. Tempo training is a way to increase your body’s ability to sustain higher intensity exercise without having excess lactate accumulate. 
+            <br><br>•	Interval training involves alternating bursts of high intensity exercise with lower intensity, recovery periods. Try and have a work-rest ratio of 1:1. This allows the body to accomplish a great amount of work which is normally not possible as it taps into the anaerobic energy systems quickly but allows for a sufficient recovery. This pushes your heart rate limit.  
+            <br><br>•	Cross-training is simply a strategy where you implement various different workout modes into the week, in order to not strain the same muscles over and over again and be able to undergo cardio using different muscles. 
+            <br><br>•	The last one, combined aerobic and resistance training is exactly what it says, combining cardio and strength training. This is usually done if you goal is to simultaneously improve both aspects at once. It usually isn’t effective if you just evenly do cardio and strength training every week, but focusing on one area while doing minimum of the other to maintain it, then vice versa is much better. 
+            <br><br><b>How should I warm up?</b><br><br>A great way to warm up before a cardiovascular exercise is to begin with light intensity of the exercise and then gradually building up the intensity until the ideal workout intensity. This means that your heart rate will steadily increase, not having a sudden rise, which will greatly reduce the risk of injury and provide you with the most effective benefits. Doing some dynamic stretching (using repeated muscle movements to stretch the range of motion) is also a great way to warm up your muscles and promotes blood flow to ensure enough oxygen can reach your muscles. But static stretching (holding a stretch) is not an effective way to warm up as it does not warm up your muscles well and may reduce temporary range of motion as it is a relaxation stretch.
+            <br><br><b>Further tips:</b><br><br>
+            <br><br>•	Make sure you stay hydrated and fuel up before a run to provide your body with more energy and nutrients. 
+            <br><br>•	Focus on proper form and technique to prevent injury
+            <br><br>•	Make sure you get enough rest after workouts, don’t do many workouts in consecutive days and try to space them out across the week. 
+            <br><br>•	Set clear goals so you can stay motivated and focused
+            </h5>
+        </div>
+        <div>
+          <h5 id="flexibility_bd"><br>Flexibility training such as stretching compose of activities which aim to improve your joint and muscle’s abilities to maintain movement necessary for daily activities. It also aims to improve your body’s range of motion. 
+
+            <br><br><br><b>What are the benefits?</b><br><br>There are various health benefits of flexibility training, such as enhancing your ability to carry out daily tasks more effectively and increases blood flow in the muscles which reduces risk of injury.
+            
+            <br><br><b>How is beginner defined?</b><br><br>You would fit into this beginner category if have not done any flexibility training before. You should do additionally research into the proper technique and others. You should aim to increase your progress by challenging yourself to go into a deeper stretch each time and make sure you feel the stretch properly. Remember to breathe deeply and consistently throughout the routine, and don't push yourself too hard to the point of pain. 
+            
+            <br><br><b>How should I warm-up?</b><br><br>A warm-up for flexibility routines are also great, as they allow your blood to circulate better and increases the temperature of your muscles, which help your muscles to perform better when stretching. 
+            
+            <br><br><b>What is this used for?</b><br><br>Flexibility training is a very great way to cool down and recover from cardio or strength training. It greatly reduces your muscle soreness and reduces the risk of injury. You should try to incorporate one of these stretching routines after every workout session. Just a short 5 minute one is also very effective. 
+            </h5>
+        </div>
+        <div>
+          <h5 id="flexibility_id"><br>Flexibility training such as stretching composes of activities which aim to improve your joint and muscle’s abilities to maintain movement necessary for daily activities. It also aims to improve your body’s range of motion. 
+
+            <br><br><br><b>What are the benefits?</b><br><br>There are various health benefits of flexibility training, such as enhancing your ability to carry out daily tasks more effectively and increases blood flow in the muscles which reduces risk of injury.
+            
+            <br><br><b>How is intermediate defined?</b><br><br>You would fit into this intermediate category if you have already begun a stretching routine with some kind of structure for over a few months. With an intermediate level of fitness, you should aim to keep challenging yourself with structured progressive overload. You should aim to increase your progress by challenging yourself to go into a deeper stretch each time and make sure you feel the stretch properly. Remember to breathe deeply and consistently throughout the routine, and don't push yourself too hard to the point of pain. 
+            
+            <br><br><b>How should I warm-up?</b><br><br>A warm-up for flexibility routines are also great, as they allow your blood to circulate better and increases the temperature of your muscles, which help your muscles to perform better when stretching. 
+            
+            <br><br><b>What is this used for?</b><br><br>Along with an intermediate flexibility plan, you should try to have another form of fitness which will create a bigger benefit for your body. Flexibility training is a very great way to cool down and recover from cardio or strength training. It greatly reduces your muscle soreness and reduces the risk of injury. You should try to incorporate one of these stretching routines after every workout session. Just a short 5 minute one is also very effective. 
+            </h5>
+        </div>
+        <div>
+          <h5 id="flexibility_ad"><br>Flexibility training such as stretching composes of activities which aim to improve your joint and muscle’s abilities to maintain movement necessary for daily activities. It also aims to improve your body’s range of motion. 
+
+            <br><br><br><b>What are the benefits?</b><br><br>There are various health benefits of flexibility training, such as enhancing your ability to carry out daily tasks more effectively and increases blood flow in the muscles which reduces risk of injury.
+            
+            <br><br><b>How do is advanced defined?</b><br><br>You would fit into this advanced category if you have done lots of flexibility routines consistently over a year and your flexibility has improved to a level in which you can do higher level stretches. With an intermediate level of fitness, you should aim to keep challenging yourself with structured progressive overload. You should aim to increase your progress by challenging yourself to go into a deeper stretch each time and make sure you feel the stretch properly. Remember to breathe deeply and consistently throughout the routine, and don't push yourself too hard to the point of pain. 
+            
+            <br><br><b>How should I warm-up?</b><br><br>A warm-up for flexibility routines are also great, as they allow your blood to circulate better and increases the temperature of your muscles, which help your muscles to perform better when stretching. 
+            
+            <br><br><b>What is this used for?</b><br><br>Along with an advanced flexibility plan, you should have another form of fitness which will allow your physical fitness to further increase. Doing flexibility by itself isn’t quite as effective. Flexibility training is a very great way to cool down and recover from cardio or strength training. It greatly reduces your muscle soreness and reduces the risk of injury. You should try to incorporate one of these stretching routines after every workout session. Just a short 5 minute one is also very effective. 
+            </h5>
+        </div>
+        <div>
+          <h5 id="strength_bd"><br>Strength training or resistance training is a form of exercise with a primary goal of increasing muscle strength and muscle endurance. This is done by applying resistance to the muscles and undergoing several repetitions of different exercises. <br>
+            <br><br><b>What are the benefits?</b><br><br>There are various health benefits of strength training along with increasing strength. Examples are improving bone health, decreasing risk of injury, losing weight and increasing your metabolism. 
+            <br><br><b>How is beginner defined?</b><br><br>You would fit into the beginner strength category if you hadn’t undergone any strength training before and want to start picking it up, or if you had not done this form of training for a long time and need a way to ease back in. As a beginner, you should start off with small steps, and then progressing further as your fitness level and experience grows. You should focus on building a fitness habit and learn to do correct form of each exercise from the start. 
+            <br><br><b>How do I warm-up?</b><br><br>A proper warm-up before a resistance workout is important to prevent injury and maximise effectiveness of the session. An effective warm-up should include at least 5 minutes of aerobic activity such as jogging or jumping rope to get your body temperature up and increases blood flow which lets you have better performance during the session. There should also be at least 5 minutes of dynamic stretching, which is doing repetitions of stretching your maximum range of motion, not holding the stretch, and these stretches should target all of the muscle areas you are training during the workout. 
+            <br><br>Adding a flexibility routine on days you don’t workout provides you with many benefits such as reducing muscle tension for recovery which improves your performance in following workouts, reduces risk of injury, and enhances your body’s range of motion. This doesn’t have to be for very long, just a quick 10 minute stretch is also effective. Check out the flexibility section on our website for more info. 
+            <br><br><b>Further tips:</b><br><br>
+            <br>•	Make sure you stay hydrated and fuel up before a workout to provide your body with more energy and nutrients. 
+            <br>•	Make sure you get enough rest after workouts, don’t do many workouts in consecutive days and try to space them out across the week. 
+            <br>•	Lastly, listen to your body, if you feel any unexpected pain, dizziness or shortness of breath, stop and rest. 
+            <br>
+            <br><b>Definitions</b><br><br>
+            <br><br>Repetitions (reps):
+            <br>This means the number of times you execute the exercise. For example one push up is one repetition. You should aim to do a number of reps until you feel like you won’t be able to do anymore after two more. 
+            <br><br>Set:
+            <br>A set is basically just how many repetitions of an exercise you do in a row until a period of rest. Using sets is a good way to measure your workout volume. 
+            </h5>
+        </div>
+        <div>
+          <h5 id="strength_id"><br>Strength training or resistance training is a form of exercise with a primary goal of increasing muscle strength and muscle endurance. This is done by applying resistance to the muscles and undergoing several repetitions of different exercises. <br>
+            <br><br><b>What are the benefits?</b><br><br>There are various health benefits of strength training along with increasing strength. Examples are improving bone health, decreasing risk of injury, losing weight and increasing your metabolism. 
+            <br><br><b>How is intermediate defined?</b><br><br>You would fit into this intermediate category if you have had some experience in strength training for at least 6 months somewhat consistently. You should know the basics of strength training and recognise which modes of training work for you in your situation, whether it be using gym machines or bodyweight. With an intermediate level of fitness, you should aim to build on your current level with structured progression. You should aim to increase one factor of your workout by 10% within a specific number of weeks depending on your personal goals and abilities. Aspects of your workout which you can progress is the intensity, duration or frequency. <br><br>An intermediate strength training workout using gym equipment can help you continue to build muscle and increase strength. Make sure you have proper form and technique for each exercise and consider working with a fitness professional if you're unsure. With an intermediate strength training level, you should look to attend a gym in order to have access to a wider range of machines and also to join a community with a dedicated space to workout which reduces distractions.  
+            <br><br><b>How should I warm-up?</b><br><br>A proper warm-up before a resistance workout is important to prevent injury and maximise effectiveness of the session. An effective warm-up should include at least 5 minutes of aerobic activity such as jogging or jumping rope to get your body temperature up and increases blood flow which lets you have better performance during the session. There should also be at least 5 minutes of dynamic stretching, which is doing repetitions of stretching your maximum range of motion, not holding the stretch, and these stretches should target all of the muscle areas you are training during the workout. 
+            <br><br>Adding a flexibility routine on days you don’t workout provides you with many benefits such as reducing muscle tension for recovery which improves your performance in following workouts, reduces risk of injury, and enhances your body’s range of motion. This doesn’t have to be for very long, just a quick 10 minute stretch is also effective. Check out the flexibility section on our website for more info. 
+            <br><br><b>Futher tips:</b><br><br>
+            <br>•	Make sure you stay hydrated and fuel up before a workout to provide your body with more energy and nutrients.  
+            <br>•	Make sure you get enough rest after workouts, don’t do many workouts in consecutive days and try to space them out across the week. 
+            <br>•	Lastly, listen to your body, if you feel any unexpected pain, dizziness or shortness of breath, stop and rest. 
+            <br>
+            <br><b>Definitions</b><br><br>
+            <br><br>Repetitions (reps):
+            <br>This means the number of times you execute the exercise. For example one push up is one repetition. You should aim to do a number of reps until you feel like you won’t be able to do anymore after two more. 
+            <br><br>Set:
+            <br>A set is basically just how many repetitions of an exercise you do in a row until a period of rest. Using sets is a good way to measure your workout volume. </h5>
+        </div>
+        <div>
+          <h5 id="strength_ad"><br>Strength training or resistance training is a form of exercise with a primary goal of increasing muscle strength and muscle endurance. This is done by applying resistance to the muscles and undergoing several repetitions of different exercises.
+
+            <br><br><br><b>What are the benefits?</b><br><br>There are various health benefits of strength training along with increasing strength. Examples are improving bone health, decreasing risk of injury, losing weight and increasing your metabolism.
+            
+            <br><br><b>How to identify if I am advanced?</b><br><br>You would fit into this advanced category if you are experienced in this type of fitness and have been training for at least a year. You should know the basics of strength training and recognise which modes of training work for you in your situation, whether it be using gym machines or bodyweight. You should be confident with all of the techniques of exercises and have a broad understanding of this type of fitness. With an advanced level of fitness, you should aim to keep challenging yourself with structured progressive overload. You should aim to increase one factor of your workout by 10% within a specific number of weeks depending on your personal goals and abilities. Aspects of your workout which you can progress is the intensity, duration or frequency. For intensity, you can increase number of reps in a set, increase the weight, or do more sets. 
+            
+            <br><br><b>Should I join a gym?</b><br><br>An advanced strength training workout using gym equipment can help you continue to increase strength and strive towards your fitness goals. With an advanced strength training level, you should be working out in a gym in order to have access to a wider range of machines and also to join a community with a dedicated space to workout which reduces distractions unless you know what you are doing. 
+            
+            <br><br><b>How to warm-up?</b><br><br>A proper warm-up before a resistance workout is important to prevent injury and maximise effectiveness of the session. An effective warm-up should include at least 5 minutes of aerobic activity such as jogging or jumping rope to get your body temperature up and increases blood flow which lets you have better performance during the session. There should also be at least 5 minutes of dynamic stretching, which is doing repetitions of stretching your maximum range of motion, not holding the stretch, and these stretches should target all of the muscle areas you are training during the workout.
+            
+            <br><br>Adding a flexibility routine on days you don’t workout provides you with many benefits such as reducing muscle tension for recovery which improves your performance in following workouts, reduces risk of injury, and enhances your body’s range of motion. This doesn’t have to be for very long, just a quick 10 minute stretch is also effective. Check out the flexibility section on our website for more info.
+            
+            <br><br><b>Further tips:</b><br><br>
+            <br>• Make sure you stay hydrated and fuel up before a workout to provide your body with more energy and nutrients.
+            <br>• Make sure you get enough rest after workouts, don’t do many workouts in consecutive days and try to space them out across the week.
+            <br>• Lastly, listen to your body, if you feel any unexpected pain, dizziness or shortness of breath, stop and rest.
+            </h5>
+        </div>
+      </div>
+        
+      </div>
+    </div>
+
+    
+    <!-- <div class="main">
+      <div class="main__container"> -->
+        <!-- <div class="main__content">
+          <h1>NEXT GENERATION</h1>
+          <h2>WORKOUTS</h2>
+          <p>See what makes us different.</p>
+          <button class="main__btn"><a href="/">Get Started</a></button>
+        </div> -->
+        <!-- <div class="main__img--container">
+          <img src="images/pic1.svg" alt="pic" id="main__img" /> -->
+        <!-- </div> -->
+    <!-- </div> -->
+    
+    <!-- <div class="dropdown1">
+      <div class="select">
+        <span class="selected">Meow</span>
+        <div class="caret"></div>
+      </div>
+      <ul class="menu">
+        <li>Cardio</li>
+        <li>Strength</li>
+        <li>Looks</li>
+        <li class="active">Meow</li>
+        <li>Speed</li>
+      </ul>
+      <div class="dropdown__container"></div>
+    </div> -->
+    <!-- change font color -->
+
+    <!-- <div class="services">
+      <h1>See what the hype is about</h1>
+      <div class="services__container">
+        <div class="services__card">
+          <h2>Experience Bliss</h2>
+          <p>Ai powered technology</p>
+          <button>Get Started</button>
+        </div>
+        <div class="services__card">
+          <h2>Are you ready?</h2>
+          <p>Take the leap</p>
+          <button>Get Started</button>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="footer__container">
+      <!-- <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/sign__up">How it works</a> <a href="/">Testimonials</a>
+            <a href="/">Careers</a> <a href="/">Investments</a>
+            <a href="/">Terms of Service</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">Contact</a> <a href="/">Support</a>
+            <a href="/">Destinations</a> <a href="/">Sponsorships</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Videos</h2>
+            <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+            <a href="/">Agency</a> <a href="/">Influencer</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="/">Instagram</a> <a href="/">Facebook</a>
+            <a href="/">Youtube</a> <a href="/">Twitter</a>
+          </div>
+        </div>
+      </div> -->
+      <div class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo"><i class="fa-solid fa-heart-pulse"></i>FITME</a>
+          </div>
+          <p class="website__rights">© FitMe 2023. All rights reserved</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="" _blank>
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="/" class="social__icon--link" target="" _blank>
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="/" class="social__icon--link" target="" _blank>
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="/" class="social__icon--link" target="" _blank>
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="/" class="social__icon--link" target="" _blank>
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

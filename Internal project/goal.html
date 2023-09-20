@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FITME</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/65f5eeb57a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"> <i class="fa-solid fa-heart-pulse"></i> FITME </a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/cardio.html" class="navbar__links">Workouts</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/todo.html" class="navbar__links">Fitness Planner</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/goalintro.html" class="navbar__links">Goal Setting</a>
+          </li>
+          <!-- <li class="navbar__btn">
+            <a href="/" class="button">Sign up</a>
+          </li> -->
+        </ul>
+      </div>
+    </nav>
+
+    <h3 id="goal__text">Vision Board Goal Setting</h3>
+    <div class="main__container3" id="imgBox">
+      <div id=prevText></div>
+      <textarea id="textBox" placeholder="Add goal:"></textarea>
+      <input type="file" accept="image/*" name="image" id="file" style="display: none" onchange="loadFile(event)">
+      <label for="file"><img src="images/upload.png" class="upload-icon"></label>
+      <h5>Upload</h5>
+    </div>
+    <div id="tooltipContainer">
+      <div id="tooltip">
+        <span id="tooltipText">1.	Click the upload icon to upload an image or series of images to display on your vision board <br>
+          2.	At the bottom left area of the vision board, there is a text field where you can type out your smart goal <br><br>
+          After creating your vision board using these steps, they will be saved and you can come back to it whenever you want. <br> Example:
+           <br><img src="images/screenshot.png" alt="example" id="screenshot"></span>
+        <span><img src="images/question.png" alt="" id="question_img"></span>
+      </div>
+    </div>
+    <!-- <h5 id="help">Help</h5> -->
+    <!-- <div class="services">
+      <h1>See what the hype is about</h1>
+      <div class="services__container">
+        <div class="services__card">
+          <h2>Experience Bliss</h2>
+          <p>Ai powered technology</p>
+          <button>Get Started</button>
+        </div>
+        <div class="services__card">
+          <h2>Are you ready?</h2>
+          <p>Take the leap</p>
+          <button>Get Started</button>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="footer__container">
+      <div class="footer__links">
+        <!-- <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/sign__up">How it works</a> <a href="/">Testimonials</a>
+            <a href="/">Careers</a> <a href="/">Investments</a>
+            <a href="/">Terms of Service</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">Contact</a> <a href="/">Support</a>
+            <a href="/">Destinations</a> <a href="/">Sponsorships</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Videos</h2>
+            <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+            <a href="/">Agency</a> <a href="/">Influencer</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="/">Instagram</a> <a href="/">Facebook</a>
+            <a href="/">Youtube</a> <a href="/">Twitter</a>
+          </div>
+        </div> -->
+      </div>
+      <div class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo"><i class="fa-solid fa-heart-pulse"></i>FITME</a>
+          </div>
+          <p class="website__rights">© FitMe 2023. All rights reserved</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="" _blank>
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="/" class="social__icon--link" target="" _blank>
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="/" class="social__icon--link" target="" _blank>
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="/" class="social__icon--link" target="" _blank>
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="/" class="social__icon--link" target="" _blank>
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
